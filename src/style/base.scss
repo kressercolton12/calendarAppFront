@@ -1,0 +1,28 @@
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px #5c792d;
+    text-transform: uppercase;
+    color: wheat;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Images/wp9753860-the-last-of-us-pc-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.app {
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+}

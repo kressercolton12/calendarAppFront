@@ -1,0 +1,40 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+
+    .month-name {
+        width: 15vw;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+}
+.btn {
+    button {
+        background-color: wheat;
+        border: 2px solid #505050;
+        border-radius: 8px;
+        box-shadow: #5c792d 2px 2px 0 0;
+        color: #5c792d;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 18px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: rgb(243, 232, 213);
+            opacity: 1;
+        }
+    }
+}

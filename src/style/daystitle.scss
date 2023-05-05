@@ -1,0 +1,25 @@
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    .day-name {
+        font-size: 1.25em;
+        letter-spacing: 2.5px;
+        margin-top: 12px;
+        text-shadow: 2px 2px #5c792d;
+        
+    }
+}
+
+.day {
+    opacity: .65;
+    .day-overflow {
+        opacity: .15;
+    }
+}

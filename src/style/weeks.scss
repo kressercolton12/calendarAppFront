@@ -1,0 +1,14 @@
+.weeks-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+
+    .weeks {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 30px 30px;
+        margin-top: 15px;
+        justify-content: end;
+        align-items: end;
+    }
+}
